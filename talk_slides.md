@@ -12,6 +12,12 @@ Talk by: Aan Patel ([aanpatel.tech](https://aanpatel.tech))
 
 ---
 
+Code repository: https://github.com/aannirajpatel/genkit-demo
+![Code repository QR image](repo-qr.png)
+
+
+---
+
 ## 1. Introduction
 - **Genkit**: A framework to build gen AI-powered applications and features.
 - **Languages**: Node.js and Go.
