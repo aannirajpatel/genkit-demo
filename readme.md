@@ -1,6 +1,6 @@
 # Firebase Genkit demo
 
-This document will guide you through the steps to set up a Typescript server that exposes two endpoints - the first one leverages Firebase Genkit to first generate a random name, and the second endpoint is a tool-calling agent that uses the given expression to call the apt math tool.
+This document will guide you through the steps to set up a Typescript server that exposes two endpoints - the first one leverages Firebase Genkit to first expose an endpoint that does generation based on user prompt in the voice of the Terminator, and next exposes several endpoints that show off Genkit's capabilities around schema-based generation, streaming, and more.
 
 Requirements:
 - A computer with Node.js (v20+) installed (visit https://nodejs.org/ to download and install Node.js).
