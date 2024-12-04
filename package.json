@@ -4,7 +4,8 @@
   "description": "A demonstration of the Genkit LLM integration framework",
   "main": "dist/server.js",
   "scripts": {
-    "serve:dev": "nodemon src/server.ts"
+    "serve:dev": "nodemon src/server.ts",
+    "serve:genkit:dev": "npx genkit start -- npx tsx --watch src/server.ts"
   },
   "keywords": [
     "AI",
@@ -16,11 +17,17 @@
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "genkit-cli": "^0.9.6",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "@genkit-ai/googleai": "^0.9.6",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "genkit": "^0.9.6",
+    "genkit-demo": "file:",
+    "marked": "^15.0.3"
   }
 }
